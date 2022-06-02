@@ -1,8 +1,20 @@
-price = 26000
+# TEST
+
 buy = 25000
 pourcentage = 2
-calcBuyUp = buy + (buy * pourcentage / 100)
-calcBuyDown = buy - (buy * pourcentage / 100)
+priceToken = 300
+quantityBuy = 30
+quantityToken = quantityBuy/priceToken
+print(quantityToken)
 
-if(price > buy):
-    print("achat en cours...")
+# while True:
+#     price = input("Rentrer le prix :")
+#     calcBuyUp = buy + (buy * pourcentage / 100)
+#     calcBuyDown = buy - (buy * pourcentage / 100)
+
+#     if(float(price) <= calcBuyUp):
+#         print("non. prix d'achat minimum : " + str(calcBuyUp))
+#     if(float(price) > calcBuyUp):
+#         priceBuy = float(price)
+#         moy = (priceBuy + buy)/2
+#         print("Acheter à : " + str(moy))
