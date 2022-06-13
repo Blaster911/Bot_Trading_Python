@@ -9,6 +9,10 @@ class Trade:
         pass
     def getPrice():
         pass
+    def getValue():
+        pass
+    def getTotalValue():
+        pass
     def calcNewValue():
         pass
     def buy():
